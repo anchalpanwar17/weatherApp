@@ -1,0 +1,84 @@
+
+/* body{
+    /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
+    /* background-image: "url('https://source.unsplash.com/random/1920x1080/?delhi')"; 
+} */
+.container {
+    /* border: 2px solid white; */
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    background: #000000d0;
+    /* background: linear-gradient(180deg,rgb(9, 9, 9) 48%,#042dc0); */
+    opacity: 0.9;
+    color: white;
+    padding: 20px;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.search {
+    /* border: 2px solid white; */
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.input_search {
+    border: none;
+    width: 80%;
+    background: #b6b4b42b;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+    /* padding: 5px; */
+}
+
+button {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.temp {
+    /* border: 2px solid gray; */
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
+
+.card-body {
+    font-size: xx-small;
+    padding: 2px;
+    border-radius: 0px;
+}
+
+
+
+.row1, .row2, .row3, .row4 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* padding: 5px; */
+    content: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    background: #000000d0;
+    /* background: linear-gradient(180deg,rgb(9, 9, 9) 48%,#042dc0); */
+    opacity: 0.9;
+    color: white;
+}
+
+
